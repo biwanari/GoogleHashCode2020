@@ -33,8 +33,10 @@ class Pack:
             books += str(x) + " "
         books = books[:-1]
         return str(self.lib_ID) + " " + str(self.n_books) + "\n" + books
-
+'''
 if __name__ == "__main__":
     library = libreria(0, 5, 2, 2, [0,1,2,3,4])
     book_scores = [1,2,3,6,5,4]
     print(library.calcola_potenziale(book_scores,7))
+    
+'''
