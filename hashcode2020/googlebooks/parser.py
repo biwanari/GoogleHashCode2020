@@ -32,8 +32,11 @@ def parser_library(fileName):
 	b = parsify_libreria(fileName)
 	return(a[0],a[1],a[2],a[3],b)
 
+'''
 if __name__ == '__main__':
 	fileName = 'test.in'
 	#test
 #print(parsify(fileName))
 	print(parser_library(fileName))
+	
+'''
