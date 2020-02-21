@@ -1,5 +1,5 @@
 import libreria
-from parser import parser_library
+from parser import parsify, parsify_libreria, parser_library
 
 def risolvi(n_libri: int, n_librerie: int, n_giorni: int, book_scores: [int], libraries: [libreria]):
     remaining_days = n_giorni
@@ -17,6 +17,7 @@ def risolvi(n_libri: int, n_librerie: int, n_giorni: int, book_scores: [int], li
     return (OUTPUT_N_LIBS, OUTPUT_PACKS)
 
 
+'''
 if __name__ == "__main__":
     # # parse
     # library1 = libreria.libreria(0, 5, 2, 2, [0,1,2,3,4])
@@ -36,3 +37,5 @@ if __name__ == "__main__":
     print(str_risultato)
     with open(test[i] + ".out", "w") as file:
         file.write(str_risultato)
+        
+'''
